@@ -1,0 +1,23 @@
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar__input {
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.searchbar__input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Placeholder styling */
+.searchbar__input::placeholder {
+  color: #888;
+}
